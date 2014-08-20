@@ -53,6 +53,19 @@ public function testArrayvalue()
 
           $this->assertInstanceOf('DateTime', $date->getStamp());
     }
+    public function testCalculatesCommission()
+ {
+         $commission = new Commission;
+           $commission->setSalePrice('fifteen dollars');
+ }
+
+
+
+
+
+
+
+
 
 
 
